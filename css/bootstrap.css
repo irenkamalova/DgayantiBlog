@@ -14,6 +14,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+@import url('my.css');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -658,22 +661,26 @@ address {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 }
 .container-fluid {
