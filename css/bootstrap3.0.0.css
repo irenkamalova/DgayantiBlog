@@ -3347,6 +3347,12 @@ input[type="button"].btn-block {
   }
 }
 
+@media (min-width: 768px) {
+    .navbar-bottom {
+        bottom: 0 !important;
+        top: auto;
+    }
+}
 .btn-default .caret {
   border-top-color: #333333;
 }
@@ -4015,9 +4021,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   z-index: 1000;
-  min-height: 50px;
+  min-height: 100px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  background-image: url(/home/irisha/GitProjects/DgayantiBlog/background.jpg);
 }
 
 .navbar:before,
@@ -4374,8 +4381,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #00cc44;
+  border-color: #009900;
 }
 
 .navbar-default .navbar-brand {
@@ -4389,11 +4396,16 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-text {
-  color: #777777;
+  color: #ffffff;
 }
 
+.navbar-default .navbar-text:hover,
+.navbar-default .navbar-text:focus {
+    color: #5e5e5e;
+  background-color: transparent;
+}
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -4455,8 +4467,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 @media (max-width: 767px) {
